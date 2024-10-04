@@ -5,7 +5,6 @@ const Apierror =require("../Utils/ApiError")
 // const fetch =require( 'node-fetch')
 const Category=require("../Models/category.model.js")
 const {Product}=require('../Models/product.model.js')
-const { options } = require("../app.js")
 const Result = require("postcss/lib/result")
 
 const fetchAllProducts=asyncHandler(async(req,res,next)=>{
